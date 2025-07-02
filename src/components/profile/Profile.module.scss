@@ -1,0 +1,6 @@
+@use '@styles/variables' as var;
+.profile{
+	background-color: var.$messageTo;
+	width: 25vw;
+	height: 100vh;
+}
