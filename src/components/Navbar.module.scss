@@ -1,0 +1,7 @@
+@use '@styles/variables' as var;
+
+.navbar{
+	width: 25vw;
+	height: 100vh;
+	background-color:var.$messageTo ;
+}
