@@ -1,0 +1,33 @@
+@use '../../assets/styles/variables' as var;
+
+.headerChat{
+	background-color: var.$messageTo;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-inline: 24px;
+	padding-block: 12px;
+
+	&_profile{
+		display: flex;
+		gap: 8px;
+		align-items: center;
+
+
+		.avatar {
+			border-radius: 50%;
+			width: 40px;
+			height: 40;
+		}
+	}
+
+	&_settings{
+		display: flex;
+		gap: 18px;
+		align-items: center;
+		img{
+			cursor: pointer;
+		}
+	}
+	
+}

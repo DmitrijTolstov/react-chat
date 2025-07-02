@@ -1,0 +1,41 @@
+@use '../../assets/styles/variables' as var;
+
+.footerChat{
+	background-color:var.$messageTo;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 64px;
+	min-width: 100%;
+	padding-inline: 26px;
+	&_icons{
+		display: flex;
+		gap: 12px;
+	}
+
+	&_input{
+		
+		margin-inline: 24px;
+		width: 100%;
+		padding-inline:10px 25px;
+		position: relative;
+		background-color: var.$secondaryColor;
+		border-radius: 8px;
+		input{
+			display: block;
+			width: 100%;
+		
+		}
+				.voice {
+					position: absolute;
+					right: 5px;
+					top: 50%;
+					transform: translateY(-50%);
+					z-index: 10;
+					cursor: pointer;
+				}
+	}
+	
+
+
+}
